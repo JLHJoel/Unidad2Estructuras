@@ -60,7 +60,7 @@ public class Main{
             }//fin switch
             numeros.insertar(String.valueOf(resul));
         }//fin while
-        System.out.println("Resultado: " + 2);
+        System.out.println("Resultado: " + numeros.inicio.elemento);
         numeros.eliminar();
         
         
